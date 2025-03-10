@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		309110FE2D7B907A0079F531 /* Swifter in Frameworks */ = {isa = PBXBuildFile; productRef = 309110FD2D7B907A0079F531 /* Swifter */; };
+		309111002D7B907A0079F531 /* Example in Frameworks */ = {isa = PBXBuildFile; productRef = 309110FF2D7B907A0079F531 /* Example */; };
+		309F534C2D7B93A7005AF0B9 /* OAuthSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 309F534B2D7B93A7005AF0B9 /* OAuthSwift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		309110BA2D7B87B70079F531 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3091109B2D7B87B60079F531 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 309110A22D7B87B60079F531;
+			remoteInfo = xeroTimer;
+		};
+		309110C42D7B87B70079F531 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3091109B2D7B87B60079F531 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 309110A22D7B87B60079F531;
+			remoteInfo = xeroTimer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		309110A32D7B87B60079F531 /* xeroTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xeroTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		309110B92D7B87B70079F531 /* xeroTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = xeroTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		309110C32D7B87B70079F531 /* xeroTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = xeroTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		309110A52D7B87B60079F531 /* xeroTimer */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = xeroTimer;
+			sourceTree = "<group>";
+		};
+		309110BC2D7B87B70079F531 /* xeroTimerTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = xeroTimerTests;
+			sourceTree = "<group>";
+		};
+		309110C62D7B87B70079F531 /* xeroTimerUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = xeroTimerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		309110A02D7B87B60079F531 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				309110FE2D7B907A0079F531 /* Swifter in Frameworks */,
+				309111002D7B907A0079F531 /* Example in Frameworks */,
+				309F534C2D7B93A7005AF0B9 /* OAuthSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		309110B62D7B87B70079F531 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		309110C02D7B87B70079F531 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3091109A2D7B87B60079F531 = {
+			isa = PBXGroup;
+			children = (
+				309110A52D7B87B60079F531 /* xeroTimer */,
+				309110BC2D7B87B70079F531 /* xeroTimerTests */,
+				309110C62D7B87B70079F531 /* xeroTimerUITests */,
+				309110A42D7B87B60079F531 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		309110A42D7B87B60079F531 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				309110A32D7B87B60079F531 /* xeroTimer.app */,
+				309110B92D7B87B70079F531 /* xeroTimerTests.xctest */,
+				309110C32D7B87B70079F531 /* xeroTimerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		309110A22D7B87B60079F531 /* xeroTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 309110CD2D7B87B70079F531 /* Build configuration list for PBXNativeTarget "xeroTimer" */;
+			buildPhases = (
+				3091109F2D7B87B60079F531 /* Sources */,
+				309110A02D7B87B60079F531 /* Frameworks */,
+				309110A12D7B87B60079F531 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				309110A52D7B87B60079F531 /* xeroTimer */,
+			);
+			name = xeroTimer;
+			packageProductDependencies = (
+				309110FD2D7B907A0079F531 /* Swifter */,
+				309110FF2D7B907A0079F531 /* Example */,
+				309F534B2D7B93A7005AF0B9 /* OAuthSwift */,
+			);
+			productName = xeroTimer;
+			productReference = 309110A32D7B87B60079F531 /* xeroTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		309110B82D7B87B70079F531 /* xeroTimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 309110D02D7B87B70079F531 /* Build configuration list for PBXNativeTarget "xeroTimerTests" */;
+			buildPhases = (
+				309110B52D7B87B70079F531 /* Sources */,
+				309110B62D7B87B70079F531 /* Frameworks */,
+				309110B72D7B87B70079F531 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				309110BB2D7B87B70079F531 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				309110BC2D7B87B70079F531 /* xeroTimerTests */,
+			);
+			name = xeroTimerTests;
+			packageProductDependencies = (
+			);
+			productName = xeroTimerTests;
+			productReference = 309110B92D7B87B70079F531 /* xeroTimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		309110C22D7B87B70079F531 /* xeroTimerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 309110D32D7B87B70079F531 /* Build configuration list for PBXNativeTarget "xeroTimerUITests" */;
+			buildPhases = (
+				309110BF2D7B87B70079F531 /* Sources */,
+				309110C02D7B87B70079F531 /* Frameworks */,
+				309110C12D7B87B70079F531 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				309110C52D7B87B70079F531 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				309110C62D7B87B70079F531 /* xeroTimerUITests */,
+			);
+			name = xeroTimerUITests;
+			packageProductDependencies = (
+			);
+			productName = xeroTimerUITests;
+			productReference = 309110C32D7B87B70079F531 /* xeroTimerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3091109B2D7B87B60079F531 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					309110A22D7B87B60079F531 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					309110B82D7B87B70079F531 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 309110A22D7B87B60079F531;
+					};
+					309110C22D7B87B70079F531 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 309110A22D7B87B60079F531;
+					};
+				};
+			};
+			buildConfigurationList = 3091109E2D7B87B60079F531 /* Build configuration list for PBXProject "xeroTimer" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3091109A2D7B87B60079F531;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				309110FC2D7B907A0079F531 /* XCRemoteSwiftPackageReference "swifter" */,
+				309F534A2D7B93A7005AF0B9 /* XCRemoteSwiftPackageReference "OAuthSwift" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 309110A42D7B87B60079F531 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				309110A22D7B87B60079F531 /* xeroTimer */,
+				309110B82D7B87B70079F531 /* xeroTimerTests */,
+				309110C22D7B87B70079F531 /* xeroTimerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		309110A12D7B87B60079F531 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		309110B72D7B87B70079F531 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		309110C12D7B87B70079F531 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3091109F2D7B87B60079F531 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		309110B52D7B87B70079F531 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		309110BF2D7B87B70079F531 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		309110BB2D7B87B70079F531 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 309110A22D7B87B60079F531 /* xeroTimer */;
+			targetProxy = 309110BA2D7B87B70079F531 /* PBXContainerItemProxy */;
+		};
+		309110C52D7B87B70079F531 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 309110A22D7B87B60079F531 /* xeroTimer */;
+			targetProxy = 309110C42D7B87B70079F531 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		309110CB2D7B87B70079F531 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		309110CC2D7B87B70079F531 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		309110CE2D7B87B70079F531 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = xeroTimer/xeroTimer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"xeroTimer/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = papertiger.xeroTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		309110CF2D7B87B70079F531 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = xeroTimer/xeroTimer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"xeroTimer/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = papertiger.xeroTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		309110D12D7B87B70079F531 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = papertiger.xeroTimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/xeroTimer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/xeroTimer";
+			};
+			name = Debug;
+		};
+		309110D22D7B87B70079F531 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = papertiger.xeroTimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/xeroTimer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/xeroTimer";
+			};
+			name = Release;
+		};
+		309110D42D7B87B70079F531 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = papertiger.xeroTimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = xeroTimer;
+			};
+			name = Debug;
+		};
+		309110D52D7B87B70079F531 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = papertiger.xeroTimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = xeroTimer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3091109E2D7B87B60079F531 /* Build configuration list for PBXProject "xeroTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				309110CB2D7B87B70079F531 /* Debug */,
+				309110CC2D7B87B70079F531 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		309110CD2D7B87B70079F531 /* Build configuration list for PBXNativeTarget "xeroTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				309110CE2D7B87B70079F531 /* Debug */,
+				309110CF2D7B87B70079F531 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		309110D02D7B87B70079F531 /* Build configuration list for PBXNativeTarget "xeroTimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				309110D12D7B87B70079F531 /* Debug */,
+				309110D22D7B87B70079F531 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		309110D32D7B87B70079F531 /* Build configuration list for PBXNativeTarget "xeroTimerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				309110D42D7B87B70079F531 /* Debug */,
+				309110D52D7B87B70079F531 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		309110FC2D7B907A0079F531 /* XCRemoteSwiftPackageReference "swifter" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/httpswift/swifter.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.0;
+			};
+		};
+		309F534A2D7B93A7005AF0B9 /* XCRemoteSwiftPackageReference "OAuthSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/OAuthSwift/OAuthSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		309110FD2D7B907A0079F531 /* Swifter */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 309110FC2D7B907A0079F531 /* XCRemoteSwiftPackageReference "swifter" */;
+			productName = Swifter;
+		};
+		309110FF2D7B907A0079F531 /* Example */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 309110FC2D7B907A0079F531 /* XCRemoteSwiftPackageReference "swifter" */;
+			productName = Example;
+		};
+		309F534B2D7B93A7005AF0B9 /* OAuthSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 309F534A2D7B93A7005AF0B9 /* XCRemoteSwiftPackageReference "OAuthSwift" */;
+			productName = OAuthSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 3091109B2D7B87B60079F531 /* Project object */;
+}
